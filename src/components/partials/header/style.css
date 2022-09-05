@@ -1,0 +1,23 @@
+.header {
+  max-width: 100%;
+  box-sizing: border-box;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logInHeader-img {
+  max-width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  overflow: hidden;
+ }
+.header__logIn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-direction: row;
+  font-size: 16px;
+  font-weight: 600;
+}
+

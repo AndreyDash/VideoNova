@@ -1,0 +1,32 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.welcome__heading {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.welcome__text {
+  width: 100%;
+  height: 100%;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+/* .welcome__button {
+  width: 188px;
+  height: 54px;
+} */
+.video-nova {
+  color: #FF6363;
+}

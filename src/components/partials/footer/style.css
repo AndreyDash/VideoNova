@@ -1,0 +1,20 @@
+.footer {
+  height: 136px;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  background: #232323;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.footer__text {
+  color: grey;
+}
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  gap: 44px;
+  width: fit-content;
+}
+

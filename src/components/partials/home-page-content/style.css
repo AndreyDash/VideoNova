@@ -1,0 +1,22 @@
+.content {
+  /* box-sizing: border-box; */
+  display: flex;
+  /* max-width: 1440px;
+  max-height: 1091px; */
+  flex-direction: column;
+  padding: 44px 0 85px 0;
+  gap: 85px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.content__welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.content__bestCreators {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,68 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 44px 0 85px 0;
+  gap: 135px;
+  max-width: 1440px;
+}
+.content__userName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 600;
+  gap: 20px;
+}
+.userVideos {
+  width: 100%;
+  height: 100%;
+}
+.userVideos__heading {
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.userName-img {
+  max-width: 154px;
+  height: 154px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.userName-userVideos {
+  color:#000000;
+  font-size: 30px;
+  font-weight: 700;
+}
+.userName-userVideos:after {
+  position: absolute;
+  content: url("../..//primitives/icons/iconVideoSquare-black.png");
+  color:#000000;
+  width: 24px;
+  top: 9px;
+  left: 270px;
+}
+.videoFrame {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 304px; */
+  height: 272px;
+  margin-top: 35px;
+}
+.videoFrame__iframe {
+  width: 275px;
+  height: 155px;
+  border-radius: 14px;
+}
+.userVideos__videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

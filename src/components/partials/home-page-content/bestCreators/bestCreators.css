@@ -1,0 +1,70 @@
+.bestCreators {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  gap: 38px;
+}
+.bestCreators__heading {
+  display: flex;
+  font-weight: 700;
+  font-size: 30px;
+  align-items: baseline;  
+  gap: 10px;
+}
+.bestCreators__cardUser {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 12px;
+}
+.cardUser {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E5E8FF;
+  width: 290px;
+  height: 389px;
+  padding: 30px;
+  border-radius: 14px;
+}
+.cardUser__img {
+  max-width: 133px;
+  height: 133px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.cardUser__heading {
+  font-size: 25px;
+  font-style: bold;
+}
+.cardUser__rates {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.ratesCardUser-videos {
+  padding-left: 35px;
+}
+.ratesCardUser-videos:before {
+  position: absolute;
+  content: url("../../..//primitives/icons/iconVideoSquare.png");
+  color:#292D32;
+  width: 24px;
+  top: -4px;
+  left: 5px;
+}
+.ratesCardUser-likes:before {
+  position: absolute;
+  content: url("../../..//primitives/icons/iconHeart.png");
+  color:#292D32;
+  width: 24px;
+  top: -2px;
+  left: 135px;
+}
